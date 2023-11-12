@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<title>jQuery New Account Creation Form</title>
+</head>
+<body>
+<h1>ACCOUNT CREATION FORM</h1>
+<form id="new-account-form">
+<input type="email" size="30" name="email" value="" placeholder="Enter your email address">
+<div id="emailErrorMessage"  class="eMessage"></div>
+<p><input type="password" size="30" name="password1" value="" placeholder="Enter a password"></p>
+<p></p><input type="password" size="30" name="password2" value="" placeholder="Re-enter the password">
+<div id="passwordErrorMessage" class="eMessage"></div>
+</p>
+<button type="submit">Create Account</button>
+</form>
+<span id='output' style="font-weight: bold"></span>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="validation.js">   
+</script>
+</body>
+</html>
+
+
